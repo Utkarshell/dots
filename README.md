@@ -41,6 +41,9 @@ Here are some information about my setup:
   - waybar
   - nerd-font
 
+**<u>in case you using mine dotfiles- </u>**
+- rename the sway_config file as ~/.config or move all folder to ~/.config
+
 
 
 | <samp> Previews </samp> | ![png](walls/showcase1.png) </br> ![png](walls/showcase2.png) </br> ![png](walls/showcase4.png)|
