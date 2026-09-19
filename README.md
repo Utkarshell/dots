@@ -33,7 +33,16 @@ Here are some information about my setup:
   - `connect mac_address`
   - `quit `
  
-    
+
+# things i need before using sway -
+  - sway/ swaylock/ swayidle
+  - blueman-manage
+  - wofi
+  - waybar
+  - nerd-font
+
+
+
 | <samp> Previews </samp> | ![png](walls/showcase1.png) </br> ![png](walls/showcase2.png) </br> ![png](walls/showcase4.png)|
 | --- | --- |
 
