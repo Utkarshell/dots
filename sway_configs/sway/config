@@ -99,6 +99,7 @@ bindsym $mod+Shift+space floating toggle
 
 # open app of utk convenience
 bindsym $win+w exec $browser
+bindsym $win+f exec firefox
 bindsym $win+C exec code
 bindsym $win+N exec obsidian
 bindsym $win+b exec exec blueman-manager
