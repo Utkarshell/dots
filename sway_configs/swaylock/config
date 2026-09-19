@@ -1,0 +1,60 @@
+# == made by utk for utk ==
+
+# Wallpaper
+image=/home/utkarsh/walls/chainsawman.png
+scaling=fill
+
+
+# Password indicator
+indicator-radius=100
+indicator-thickness=12
+
+indicator-x-position=960
+indicator-y-position=600
+
+indicator-idle-visible
+
+
+# Dracula colors
+
+ring-color=6272A4
+inside-color=282A36CC
+line-color=00000000
+separator-color=00000000
+
+key-hl-color=8BE9FD
+
+text-color=F8F8F2
+
+
+# Correct password
+ring-ver-color=50FA7B
+inside-ver-color=50FA7B44
+line-ver-color=50FA7B00
+text-ver-color=50FA7B
+
+
+# Wrong password
+ring-wrong-color=FF5555
+inside-wrong-color=FF555544
+line-wrong-color=FF555500
+text-wrong-color=FF5555
+
+
+# Cleared password
+ring-clear-color=BD93F9
+inside-clear-color=BD93F944
+line-clear-color=BD93F900
+text-clear-color=BD93F9
+
+
+# Caps Lock
+caps-lock-bs-hl-color=FFB86C
+caps-lock-key-hl-color=FFB86C
+ring-caps-lock-color=FFB86C
+inside-caps-lock-color=FFB86C44
+
+
+# Font
+font=FantasqueSansM Nerd Font Propo
+font-size=40
