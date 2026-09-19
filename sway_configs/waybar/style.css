@@ -1,0 +1,62 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 16px;
+}
+
+window#waybar {
+    background: #111111;
+    color: #ffffff;
+}
+#window{
+    margin-left: 12px;
+    padding: 0 10px;
+    color: #badbe3;
+}
+#workspaces {
+    margin: 0 10px;
+    padding: 0 5px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    margin: 4px 3px;
+    /* border-radius: 10px; */
+    color: #ffffff;
+    background: transparent;
+}
+
+#workspaces button:hover {
+    background: rgba(255,255,255,0.15);
+}
+
+#workspaces button.focused {
+    background: #9fcfd3;
+    color: #111111;
+    border-radius: 2;
+}
+
+
+
+#workspaces,
+#clock,
+#cpu,
+#memory,
+#tray,
+#pulseaudio,
+#network,
+#battery {      
+    padding: 0 10px;
+    margin: 4px 3px;
+    border-radius: 3px;
+}
+
+/* bar spacing */
+.modules-left {
+    margin-left: 10px;
+}
+
+.modules-right {
+    margin-right: 10px;
+}
+
+/* == made by utk for utk == */

@@ -1,0 +1,92 @@
+{
+    "position": "top",
+
+    "modules-left": [
+        "custom/applauncher",
+        "sway/window"
+    ],
+
+    "modules-center": [
+        "sway/workspaces"
+    ],
+
+    "modules-right": [
+        "tray",    
+        "wireplumber",
+        "cpu",
+        "memory",
+        "battery",
+        "network",       
+        "clock"
+    ],
+
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": false,
+        "tooltip": false,
+        "persistent-workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": []
+        }
+    },
+
+    "custom/applauncher": {
+        "format": "",
+        "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun --location=top -y 15",
+        "tooltip": false
+    },
+    
+    "clock": {
+        "format": "{:%I:%M}"
+    },
+
+    "battery": {
+        "format": " {capacity}%",
+        "tooltip": true,
+        "Battery": "{capacity}% • {status}"
+        
+    },
+
+    "network": {
+        "format-wifi": "",
+        "format-disconnected": "󰖪",
+        "format-ethernet": "ethernet",
+        "tooltip": false
+    },
+
+    "wireplumber": {
+        "format": " {volume}",
+        "format-muted": " ",
+        "tooltip": false
+    },
+
+    "cpu": {
+        "format": " {usage}%"
+    },
+
+    "memory": {
+		"format": "󰘚 {used}GB",
+		"tooltip-format": "{percentage}% memory used\n{swapUsed} GB swap used\n{avail} GB memory available",
+		"interval": 5        
+    },
+    "tray": {
+		"show-passive-items": true,
+		"spacing": 10
+	},
+    "sway/window": {
+    "format": "{title}",
+    "max-length": 50,  
+    "rewrite": {
+        "^(.*) - YouTube - Brave$": " $1",
+        "^(.*) - Spotify - Brave$": " $1",
+        "^(.*) - Brave$": "󰖟 $1",
+        "(.*) - zsh": "> [$1]"
+    }
+    }
+
+    
+}
