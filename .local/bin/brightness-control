@@ -1,0 +1,25 @@
+#!/bin/sh
+
+STEP=5
+MIN=10
+
+current=$(brightnessctl get)
+max=$(brightnessctl max)
+
+if [ "$1" = "up" ]; then
+    new=$((current + max * STEP / 100))
+else
+    new=$((current - max * STEP / 100))
+fi
+
+min_value=$((max * MIN / 100))
+
+if [ "$new" -lt "$min_value" ]; then
+    new=$min_value
+fi
+
+if [ "$new" -gt "$max" ]; then
+    new=$max
+fi
+
+brightnessctl set "$new"
