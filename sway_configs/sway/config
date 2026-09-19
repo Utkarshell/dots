@@ -26,7 +26,7 @@ include /etc/sway/config-vars.d/*
 # /etc/sway/config.d/
 
 # wallpaper 
-#output * bg /home/utkarsh/walls/girls.png fill
+#output * bg /home/utkarsh/walls/girly.png fill
 output * bg /home/utkarsh/walls/flowers.png fill
 #output * bg /home/utkarsh/walls/chainsawman.png fill
 
