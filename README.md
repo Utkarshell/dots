@@ -41,12 +41,18 @@ Here are some information about my setup:
   - waybar
   - nerd-font
 
+  extra packages in case i forget-
+  1. htop and ptop
+  2. nmtui   ? => network manager 
+  3. blueman-manager ? => bluetooth mangar
+  4. brain.exe
+
 **<u>in case you using mine dotfiles- </u>**
 - rename the sway_config file as ~/.config or move all folder to ~/.config
 
 
 
-| <samp> Previews </samp> | ![png](walls/showcase1.png) </br> ![png](walls/showcase2.png) </br> ![png](walls/showcase4.png)|
+| <samp> Previews </samp> | ![png](walls/fullscreen.png) </br> ![png](walls/utk1.png) </br> ![png](walls/utk2.png) </br>![png](walls/showcase1.png) </br> ![png](walls/showcase4.png)|
 | --- | --- |
 
 
