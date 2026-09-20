@@ -16,6 +16,7 @@
         "cpu",
         "memory",
         "battery",
+        "bluetooth",
         "network",       
         "clock"
     ],
@@ -41,13 +42,22 @@
     },
     
     "clock": {
-        "format": "{:%I:%M}"
+        "format": "{:%I:%M}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+         "format": {
+           "today": "<span color='#75f1fa'><b>{}</b></span>"
+        }
+      }
     },
 
     "battery": {
-        "format": " {capacity}%",
-        "tooltip": true,
-        "Battery": "{capacity}% • {status}"
+        "interval": 60,
+        "format": "{icon} {capacity}% ",
+        "format-icons": {
+            "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+            "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+        }
         
     },
 
@@ -55,7 +65,21 @@
         "format-wifi": "",
         "format-disconnected": "󰖪",
         "format-ethernet": "ethernet",
-        "tooltip": false
+        "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname} ",
+        "tooltip-format-disconnected": "󰖪",
+        "max-length": 50,
+        "on-click": "exec kitty --title=wifi -e nmtui"
+    },
+    "bluetooth": {
+        "format": "",
+        "format-disabled": "", 
+        "format-connected": " ",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "exec blueman-manager"
     },
 
     "wireplumber": {
@@ -65,13 +89,19 @@
     },
 
     "cpu": {
-        "format": " {usage}%"
+        "format": " {usage}%",
+        "interval": 10,
+        "max-length": 10,
+        "on-click": "exec kitty --title=btop -e btop"
+
     },
 
     "memory": {
 		"format": "󰘚 {used}GB",
 		"tooltip-format": "{percentage}% memory used\n{swapUsed} GB swap used\n{avail} GB memory available",
-		"interval": 5        
+		"interval": 30,
+        "on-click": "exec kitty --title=htop -e htop"
+       
     },
     "tray": {
 		"show-passive-items": true,
