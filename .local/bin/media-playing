@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for player in $(playerctl -l 2>/dev/null); do
+    status=$(playerctl -p "$player" status 2>/dev/null)
+
+    if [ "$status" = "Playing" ]; then
+        exit 0
+    fi
+done
+
+exit 1
+
+# install playerctl first,
+# Make it executable
+# chmod +x ~/.local/bin/media-playing
