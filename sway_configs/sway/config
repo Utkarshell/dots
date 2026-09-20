@@ -102,7 +102,7 @@ bindsym $win+w exec $browser
 bindsym $win+f exec firefox
 bindsym $win+C exec code
 bindsym $win+N exec obsidian
-bindsym $win+b exec exec blueman-manager
+bindsym $win+b exec blueman-manager
 bindsym $win+shift+l exec swaylock
 
 # shut down quickly
