@@ -4,7 +4,7 @@
 
 <div >
 <img src="assets/screenshotes/showcase2.png" alt="Rice Showcase" > 
-<img src="assets/screenshotes/swaysc2.png" alt="Rice Showcase" > 
+<img src="assets/screenshotes/showcase3.jpeg" alt="Rice Showcase" > 
 </div>
 
 *** 
