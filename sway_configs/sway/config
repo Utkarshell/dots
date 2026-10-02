@@ -1,8 +1,6 @@
-# == made by utk for utk ==
 
 ### Variables
 
-# Logo key. Use Mod1 for Alt and Mod4 for Win!
 set $mod Mod1
 set $win Mod4
 # Home row direction keys, like vim
@@ -18,19 +16,6 @@ set $application_launcher pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --s
 
 include /etc/sway/config-vars.d/*
 
-### Output configuration
-#
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-# This is commented in Debian, because the Sway wallpaper files are in a separate
-# package `sway-backgrounds`. Installing this package drops a config file to
-# /etc/sway/config.d/
-
-# wallpaper 
-#output * bg /home/utkarsh/walls/girly.png fill
-output * bg /home/utkarsh/walls/flowers.png fill
-#output * bg /home/utkarsh/walls/chainsawman.png fill
-
-#
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
@@ -38,46 +23,24 @@ output * bg /home/utkarsh/walls/flowers.png fill
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 ### Idle configuration
-#
-# Example configuration:
-
-#exec swayidle -w \
-#        timeout 300 'swaylock -f -c 000000' \
-#        timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-#        before-sleep 'swaylock -f -c 000000'
-
 # upgraded version doesnt go to sleep while using vlc/ spotify etc!
-# before install playerctl || playerctl -p vlc status    
 
 exec swayidle -w \
-    timeout 300 '~/.local/bin/media-playing || swaylock -f -c 000000' \
+    timeout 180 '~/.local/bin/media-playing || ~/.local/bin/random-lock' \
     timeout 600 '~/.local/bin/media-playing || swaymsg "output * power off"' \
     resume 'swaymsg "output * power on"' \
-    before-sleep 'swaylock -f -c 000000'
+    before-sleep '~/.local/bin/random-lock'
 
-    
-
-# This will lock your screen after 300 seconds of inactivity, then turn off
-# your displays after another 300 seconds, and turn your screens back on when
-# resumed. It will also lock your screen before your computer goes to sleep.
+# before install playerctl || playerctl -p vlc status
 
 ### Input configuration
-#
-# Example configuration:
-#
+
 input type:touchpad {
    dwt enabled
    tap enabled
    natural_scroll enabled
    middle_emulation enabled
 }
-#
-#   input type:keyboard {
-#       xkb_layout "eu"
-#   }
-#
-# You can also configure each device individually.
-# Read `man 5 sway-input` for more information about this section.
 
 ### Key bindings
 
@@ -108,29 +71,34 @@ bindsym $mod+Shift+c reload
 bindsym $mod+e exec $file_explorer
 bindsym $mod+Shift+space floating toggle
 
-# open app of utk convenience
+# open app as utk convenience
 bindsym $win+w exec $browser
 bindsym $win+f exec firefox
 bindsym $win+C exec code
 bindsym $win+N exec obsidian
-bindsym $win+b exec blueman-manager
+bindsym $win+b exec exec blueman-manager
 bindsym $win+shift+l exec swaylock
+
+# wallpaper 
+bindsym $win+Shift+r exec ~/.local/bin/random-walls
+
+#screenshots
+bindsym $win+shift+s exec grim -g "$(slurp)" ~/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png
+#bindsym $mod+shift+p exec grim ~/Pictures/fullscreen-$(date +%Y-%m-%d_%H-%M-%S).png
 
 # shut down quickly
 bindsym $mod+Shift+q exec systemctl poweroff
-
-
-
-
-floating_modifier $mod normal
 
 # Exit sway (logs you out of your Wayland session)
 bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
 
+floating_modifier $mod normal
+
+
+
 
 # Moving around
-
 bindsym $mod+f fullscreen
 bindsym $mod+$left focus left
 bindsym $mod+$down focus down
@@ -241,10 +209,7 @@ assign [app_id="spotify"] workspace number 6
 
 bindsym $mod+r mode "resize"
 mode "resize" {
-    # left will shrink the containers width
-    # right will grow the containers width
-    # up will shrink the containers height
-    # down will grow the containers height
+
     bindsym $left resize shrink width 10px
     bindsym $down resize grow height 10px
     bindsym $up resize shrink height 10px
@@ -261,7 +226,7 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 
-#
+
 # Utilities:
 #
     # Special keys to adjust volume via PulseAudio
@@ -273,22 +238,16 @@ mode "resize" {
     # Special keys to adjust brightness via brightnessctl
     #bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     #bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
-    
-    # brightness
-    #bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
-    #bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
+    # upgraded, screen doesnt go blank!
     # ~/.local/bin there is script which imma calling here
     bindsym --locked XF86MonBrightnessDown exec ~/.local/bin/brightness-control down
     bindsym --locked XF86MonBrightnessUp exec ~/.local/bin/brightness-control up
     
-    # Special key to take a screenshot with grim
-    bindsym Print exec grim
 
-#
+
 # Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
+
 bar {
     swaybar_command waybar
 }
