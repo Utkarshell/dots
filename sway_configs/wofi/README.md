@@ -4,5 +4,5 @@ bindsym $win+space exec $application_launcher
 
 ```
 </br> 
-![png](../assets/screenshotes/wofi.png)
+![png](../../assets/screenshotes/wofi.png)
 
