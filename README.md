@@ -2,57 +2,54 @@
 
 # <samp> Utkarsh' dotfiles </samp>
 
-<div style="flex:1;padding: 11px 0px 0px 10px">
-<img src="walls/showcase3.png" alt="Rice Showcase" align="right" width="520px" > 
+<div >
+<img src="assets/screenshotes/showcase2.png" alt="Rice Showcase" > 
+<img src="assets/screenshotes/swaysc2.png" alt="Rice Showcase" > 
 </div>
 
-Here are some information about my setup: 
+*** 
 
-- Window Manager: `i3wm`
-- Compositor: `picom`
-- Terminal: `kitty`
-- Editor: `neovim` & `vs code`
-- Panel | statusbar: `i3status`
-- Application Launcher: `rofi`
-- File Manager: `Dolphin` or `Nautilus` (generally)
-- Screenshot: `flameshot`
-- wallpaper: `feh`
-- Brightness Control: `brightnessctl`
+
+>[!NOTE]
+>I will update it as soon as i updated/ changed something and done with assigments and exams <3 
+
+
 
 ## <samp>bluetooth config- </samp>
 
-* first install `bluez` & `bluez-utils`
+```bash
+first install `bluez` & `bluez-utils
+-----------------------------------------
+systemctl enable bluetooth.service
+systemctl start bluetooth.service
+  bluetoothctl
+  scan on
 
-* `systemctl enable bluetooth.service`
-* `systemctl start bluetooth.service`
-* `bluetoothctl`
-  - `scan on`
+  pair mac_address
+  trust mac_address
+  connect mac_address
+  quit 
+ ```
 
-  - `pair mac_address`
-  - `trust mac_address`
-  - `connect mac_address`
-  - `quit `
- 
-
-# things i need before using sway -
+## <span> packages using along with Sway - </span>
+``` bash
   - sway/ swaylock/ swayidle
+  - kitty
   - blueman-manage
   - wofi
   - waybar
   - nerd-font
+  - grim (for screenshot)
+  
 
   extra packages in case i forget-
   1. htop and ptop
   2. nmtui   ? => network manager 
   3. blueman-manager ? => bluetooth mangar
   4. brain.exe
+```
 
-**<u>in case you using mine dotfiles- </u>**
-- rename the sway_config file as ~/.config or move all folder to ~/.config
-
-
-
-| <samp> Previews </samp> | ![png](walls/fullscreen.png) </br> ![png](walls/utk1.png) </br> ![png](walls/utk2.png) </br>![png](walls/showcase1.png) </br> ![png](walls/showcase4.png)|
+| <samp> Previews </samp> | ![png](assets/screenshotes/swaysc.png) </br> ![png](assets/screenshotes/showcase.png) </br> ![png](assets/screenshotes/swaysc2.png) </br>![png](assets/screenshotes/i3wm2.png) |
 | --- | --- |
 
 
