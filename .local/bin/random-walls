@@ -1,0 +1,12 @@
+#!/bin/bash
+
+WALLPAPER_DIR="$HOME/walls"
+
+WALLPAPER=$(find "$WALLPAPER_DIR" -type f \
+    \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) \
+    | shuf -n 1)
+
+if [ -n "$WALLPAPER" ]; then
+    pkill swaybg
+    swaybg -i "$WALLPAPER" -m fill &
+fi
