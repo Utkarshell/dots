@@ -66,10 +66,10 @@ client.placeholder      #282A36  #21222C   #F8F8F2 #282A36  #282A36
 
 bindsym $mod+Return exec $term
 bindsym $mod+q kill
-bindsym $win+space exec $application_launcher
 bindsym $mod+Shift+c reload
-bindsym $mod+e exec $file_explorer
 bindsym $mod+Shift+space floating toggle
+bindsym $win+space exec $application_launcher
+bindsym $win+e exec $file_explorer
 
 # open app as utk convenience
 bindsym $win+w exec $browser
@@ -148,24 +148,31 @@ bindsym $mod+Shift+0 move container to workspace number 10
 
 # ─── Workspace assignments ───
 
-# Workspace 1 — Brave + ChatGPT
+# Workspace 1 — browsing & docs
 assign [app_id="brave-browser"] workspace number 1
 assign [app_id="brave-chatgpt.com__-Default"] workspace number 1
 
-# Workspace 2 — Coding
-# assign [app_id="code"] workspace number 2
+# Workspace 2 — docs or refrence 
+# Workspace 3 — code
+# assign [app_id="code"] workspace number 3
 
 
-# Workspace 3 — Notes
-# assign [app_id="obsidian"] workspace number 3
+# Workspace 4 — Notes
+# assign [app_id="obsidian"] workspace number 4
 # not using as i want to write note wherever i am streaming/reading
 
-# Workspace 6 — others
-assign [app_id="spotify"] workspace number 6
-#assign [app_id="org.gnome.Nautilus"] workspace number 5
-#assign [app_id="brave-whatsapp.com__-Default"] workspace number 6
-#assign [app_id="brave-telegram.org__-Default"] workspace number 6
-#assign [app_id="brave-open.spotify.com__-Default"] workspace number 6
+# Workspace 5 - othes(files/ pdfs etc)
+#assign [app_id="$file_explorer"] workspace number 5
+
+# Workspace 6 - discord/ showcase
+#assign [app_id="discord"] workspace number 5
+#assign [app_id="telegram"] workspace number 5
+
+# in WS5, added extra gaps
+workspace 5 gaps horizontal 100
+workspace 5 gaps vertical 30
+workspace 5 gaps inner 20
+
 
 
 # Layout stuff:
