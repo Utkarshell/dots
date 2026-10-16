@@ -169,9 +169,9 @@ assign [app_id="brave-chatgpt.com__-Default"] workspace number 1
 #assign [app_id="telegram"] workspace number 5
 
 # in WS5, added extra gaps
-workspace 5 gaps horizontal 100
-workspace 5 gaps vertical 30
-workspace 5 gaps inner 20
+workspace 6 gaps horizontal 100
+workspace 6 gaps vertical 30
+workspace 6 gaps inner 20
 
 
 
