@@ -125,17 +125,7 @@ A handpicked collection of wallpapers, been collecting over the past few years.
 ![png](wallpapers/freren.png)
 ![png](wallpapers/candy.jpg)
 ![png](wallpapers/landscape.jpg)
-![png](wallpapers/RedS.jpg)
-![png](wallpapers/sakatsuki.png)
-![png](wallpapers/orangegirl.jpg)
-![png](wallpapers/givemeSpace.png)
-![png](wallpapers/girlee2.png)
-![png](wallpapers/hehidk.jpg)
-![png](wallpapers/faceplant.png)
-![png](wallpapers/gal2.png)
-![png](wallpapers/after_school_stroll.png)
-![png](wallpapers/callofnight.png)
-![png](wallpapers/gal3.png)
+
 <span>
 <img src="wallpapers/ohgal.jpg" alt="frieren">
 <h5> Found & Filed by <b> ./Utk‽ </b> </h5>
@@ -164,10 +154,15 @@ A handpicked collection of wallpapers, been collecting over the past few years.
 | ![png](wallpapers/yellowflowers.png)  | ![png](wallpapers/zenless-zone-zero-ye-shunguang.png)  |  ![png](wallpapers/zzz.png) |
 | ![png](wallpapers/berserk.png)  | ![png](wallpapers/crackedredbg.png) |  ![png](wallpapers/bluewhitecloths.png) |
 | ![png](wallpapers/frieren.jpg)  | ![png](wallpapers/realmreborn.png)  |  ![png](wallpapers/one.png) |
+<!-- faltu wale mfs -->
+|u|m|M.|
+|---|---|---|
 |![png](wallpapers/angry.png) |![png](wallpapers/wallpaperflare.jpg) | ![png](wallpapers/monochrG.png)|
-| ![png](wallpapers/yoru.png)| ![png](wallpapers/redG.jpg)| ![png](wallpapers/reallyidk.png)|
-|![png](wallpapers/pom2le.png)|![png](wallpapers/readingBoo.png)|![png](wallpapers/wwitch.png)|
-|![png](wallpapers/Yofukashi.jpg)|||
-
+| ![png](wallpapers/yoru.png)| ![png](wallpapers/pom2le.png)| ![png](wallpapers/reallyidk.png)|
+|![png](wallpapers/redG.jpg)|![png](wallpapers/readingBoo.png)|![png](wallpapers/wwitch.png)|
+|![png](wallpapers/Yofukashi.jpg)|![png](wallpapers/RedS.jpg)|![png](wallpapers/sakatsuki.png)|
+|![png](wallpapers/orangegirl.jpg)|![png](wallpapers/givemeSpace.png)|![png](wallpapers/girlee2.png)|
+|![png](wallpapers/hehidk.jpg)|![png](wallpapers/faceplant.png)|![png](wallpapers/gal2.png)|
+|![png](wallpapers/after_school_stroll.png)|![png](wallpapers/callofnight.png)|![png](wallpapers/gal3.png)|
 
 <!-- | ![png](wallpapers/)  | ![png](wallpapers/)  |  ![png](wallpapers/) | -->
