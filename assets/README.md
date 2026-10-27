@@ -83,12 +83,11 @@ A handpicked collection of wallpapers, been collecting over the past few years.
 ![png](wallpapers/anada.jpg)
 ![png](wallpapers/bunnies-road.png)
 ![png](wallpapers/fightingStance.png)
-![png](wallpapers/girlee1.png)
+
 ![png](wallpapers/hehhIdk.png)
 ![png](wallpapers/idunno.png)
 ![png](wallpapers/inforest.png)
 ![png](wallpapers/makimash.jpg)
-![png](wallpapers/Kita.png)
 ![png](wallpapers/ChemsFull.png)
 ![png](wallpapers/lain.jpg)
 ![png](wallpapers/mangchenShen.png)
@@ -101,12 +100,9 @@ A handpicked collection of wallpapers, been collecting over the past few years.
 ![png](wallpapers/ummidk.jpg)
 ![png](wallpapers/unknown1.png)
 ![png](wallpapers/schierke.png)
-![png](wallpapers/wallhaven-9o2d7x_1920x1200.png)
 
 ![png](wallpapers/butterflies.jpg)
-![png](wallpapers/pearl.png)
 ![png](wallpapers/lookinme.png)
-![png](wallpapers/galidk.jpg)
 ![png](wallpapers/chess.png)
 ![png](wallpapers/crossedFeet.png)
 ![png](wallpapers/dogsmanga.png)
@@ -117,7 +113,6 @@ A handpicked collection of wallpapers, been collecting over the past few years.
 ![png](wallpapers/vvitch.jpg)
 ![png](wallpapers/shadows.png)
 ![png](wallpapers/girlee.jpg)
-![png](wallpapers/totoro.jpg)
 ![png](wallpapers/yariou.png)
 ![png](wallpapers/lobe.png)
 ![png](wallpapers/lookingMe.png)
@@ -138,31 +133,28 @@ A handpicked collection of wallpapers, been collecting over the past few years.
 | ![png](wallpapers/anime-honkai-star-rail-castorice.png)  | ![png](wallpapers/anime-illustration-11.jpg)  |  ![png](wallpapers/arknights-amiya.png) |
 | ![png](wallpapers/arknights.jpg)  | ![png](wallpapers/butterflyg.jpg)  |  ![png](wallpapers/butterflygi.jpg) |
 | ![png](wallpapers/catdawn.jpg)  | ![png](wallpapers/catgurl.png)  |  ![png](wallpapers/cyberpunkE.jpg) |
-| ![png](wallpapers/digitalartC.png)  | ![png](wallpapers/elden-ring-melina.jpg)  |  ![png](wallpapers/evangelion-asuka.jpg) |
-| ![png](wallpapers/fate.jpg)  | ![png](wallpapers/flowers.png)  |  ![png](wallpapers/galaxy.png) |
+|  | ![png](wallpapers/elden-ring-melina.jpg)  |  ![png](wallpapers/evangelion-asuka.jpg) |
+|  | ![png](wallpapers/flowers.png)  |  ![png](wallpapers/galaxy.png) |
 | ![png](wallpapers/gameover.jpg)  | ![png](wallpapers/genshin-impact-nahida.jpg)  |  ![png](wallpapers/GUWEIZ.jpg) |
-| ![png](wallpapers/hervoice.jpg)  | ![png](wallpapers/illustrations.jpg)  |  ![png](wallpapers/isekaijoucho-1.jpg) |
-| ![png](wallpapers/isekaijoucho-3.png)  | ![png](wallpapers/J3PD.jpg)  |  ![png](wallpapers/kind.png) |
+| | ![png](wallpapers/illustrations.jpg)  |  ![png](wallpapers/isekaijoucho-1.jpg) |
+| |  |  ![png](wallpapers/kind.png) |
 | ![png](wallpapers/kinddapainting.png)  | ![png](wallpapers/momo.png)  |  ![png](wallpapers/MON-butterfly.png) |
 | ![png](wallpapers/nofern.png)  | ![png](wallpapers/nofrieren.jpg)  |  ![png](wallpapers/onground.png) |
-| ![png](wallpapers/paintingA.png)  | ![png](wallpapers/punishinggrayraven-lucia.jpg)  |  ![png](wallpapers/punishinggrayraven-selena.png) |
-| ![png](wallpapers/raven.png)  | ![png](wallpapers/reading.png)  |  ![png](wallpapers/redsun.jpg) |
+| ![png](wallpapers/paintingA.png)  | ![png](wallpapers/punishinggrayraven-lucia.jpg)  |   |
+| ![png](wallpapers/raven.png)  | ![png](wallpapers/reading.png)  |   |
 | ![png](wallpapers/redsun.png)  | ![png](wallpapers/redwhite.jpg)  |  ![png](wallpapers/studing.png) |
 | ![png](wallpapers/the-crow.jpg)  | ![png](wallpapers/vaping.jpg)  |  ![png](wallpapers/VSPO!-kisaragi-ren.png) |
 | ![png](wallpapers/wuwa-luno.png)  | ![png](wallpapers/wuwa-phrolova-5.jpg)  |  ![png](wallpapers/wuwa-roccia.png) |
 | ![png](wallpapers/wuwa.jpg)  | ![png](wallpapers/x-ray.jpg)  |  ![png](wallpapers/yaemiko.jpg) |
 | ![png](wallpapers/yellowflowers.png)  | ![png](wallpapers/zenless-zone-zero-ye-shunguang.png)  |  ![png](wallpapers/zzz.png) |
 | ![png](wallpapers/berserk.png)  | ![png](wallpapers/crackedredbg.png) |  ![png](wallpapers/bluewhitecloths.png) |
-| ![png](wallpapers/frieren.jpg)  | ![png](wallpapers/realmreborn.png)  |  ![png](wallpapers/one.png) |
+| ![png](wallpapers/frieren.jpg)  | ![png](wallpapers/realmreborn.png)  |   |
 <!-- faltu wale mfs -->
 |u|m|M.|
 |---|---|---|
-|![png](wallpapers/angry.png) |![png](wallpapers/wallpaperflare.jpg) | ![png](wallpapers/monochrG.png)|
-| ![png](wallpapers/yoru.png)| ![png](wallpapers/pom2le.png)| ![png](wallpapers/reallyidk.png)|
-|![png](wallpapers/redG.jpg)|![png](wallpapers/readingBoo.png)|![png](wallpapers/wwitch.png)|
-|![png](wallpapers/Yofukashi.jpg)|![png](wallpapers/RedS.jpg)|![png](wallpapers/sakatsuki.png)|
-|![png](wallpapers/orangegirl.jpg)|![png](wallpapers/givemeSpace.png)|![png](wallpapers/girlee2.png)|
-|![png](wallpapers/hehidk.jpg)|![png](wallpapers/faceplant.png)|![png](wallpapers/gal2.png)|
-|![png](wallpapers/after_school_stroll.png)|![png](wallpapers/callofnight.png)|![png](wallpapers/gal3.png)|
+|![png](wallpapers/angry.png) |![png](wallpapers/wallpaperflare.jpg) | 
+| ![png](wallpapers/yoru.png)| | ![png](wallpapers/reallyidk.png)|
+|![png](wallpapers/sakatsuki.png)|![png](wallpapers/readingBoo.png)|![png](wallpapers/wwitch.png)|
+
 
 <!-- | ![png](wallpapers/)  | ![png](wallpapers/)  |  ![png](wallpapers/) | -->
