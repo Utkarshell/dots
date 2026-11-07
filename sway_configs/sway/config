@@ -168,6 +168,12 @@ assign [app_id="brave-chatgpt.com__-Default"] workspace number 1
 #assign [app_id="discord"] workspace number 5
 #assign [app_id="telegram"] workspace number 5
 
+# GNOME Sushi 
+# install gnome-sushi: works only for Nautilus
+for_window [app_id="org.gnome.NautilusPreviewer"] floating enable
+for_window [app_id="org.gnome.NautilusPreviewer"] resize set 900 600
+for_window [app_id="org.gnome.NautilusPreviewer"] move position center
+
 # in WS5, added extra gaps
 workspace 6 gaps horizontal 100
 workspace 6 gaps vertical 30
