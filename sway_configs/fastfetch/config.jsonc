@@ -1,0 +1,163 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "display": {
+        "separator": " ",
+        "color": {
+            "keys": "magenta"
+        },
+        "size": {
+            "ndigits": 0,
+            "maxPrefix": "MB"
+        }
+    },
+	"logo": {
+	"source": "$HOME/.config/fastfetch/logo/Gojo-Satoru.png",
+	"type": "auto",
+        "height": 16,
+        "padding": { "top": 2, "left": 2, "right": 2 }
+    },
+    "modules": [
+        {
+            "type": "title",
+            "color": {
+                "user": "green",
+                "at": "red",
+                "host": "blue"
+            }
+        },
+        {
+            "type": "custom",
+            "format": ""
+        },
+
+        {
+            "type": "custom",
+            "format": " {#1}Software Information :D {#}"
+        },
+        {
+            "type": "os",
+            "key": "   OS",
+            "keyColor": "yellow",
+			"format": "{2}"
+        },
+        {
+            "type": "kernel",
+            "key": "   Kernel",
+            "keyColor": "yellow",
+			"format": "{1}"
+        },
+        {
+            "type": "packages",
+            "key": "   Packages",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "uptime",
+            "key": "   Uptime",
+            "keyColor": "yellow"
+        },
+
+        {
+            "type": "custom",
+            "format": " "
+        },
+		{
+            "type": "custom",
+            "format": " {#1}Hardware Information{#} <3 "
+        },
+        {
+            "type": "command", 
+            "key": "   Disk", 
+            "keyColor": "magenta",
+            "text": "df -B1 --output=source,size,used | awk '$1 ~ /^\\/dev\\// {s+=$2; u+=$3} END {printf \"%.1fG / %.1fG (%.0f%%)\", u/1e9, s/1e9, (u/s)*100}'",
+            "format": "{1}"
+            // "keyColor": "green"
+        },
+        {
+            "type": "memory",
+            "key": "   Memory",
+            "keyColor": "green"
+        },
+        {
+            "type": "cpu",
+            "key": "   CPU",
+            "format": "{name}",
+            "keyColor": "green"
+        },
+        {
+            "type": "host",
+            "key": "   Machine",
+            "format": "{name}",
+            "keyColor": "green"
+        },
+		// i dont have good cpu for now, so :xD
+        // {
+        //     "type": "gpu",
+        //     "key": "  GPU",
+        //     "keyColor": "green"
+        // },
+
+        {
+            "type": "custom",
+            "format": " "
+        },
+	// { 
+	// 	// message with pacman
+	// 	"type": "custom", 
+	// 	"format": "\u001b[1;31m 󰊠 \u001b[1;35m󰊠 \u001b[1;36m󰊠 \u001b[1;33m󰮯 \u001b[0;33m· · · · \u001b[1;38;5;208mUtkarsh \u001b[1;32mSingh" 
+	// },
+	
+		// same, so not using as of now:U
+        // {
+        //     "type": "de",
+        //     "key": "DE",
+        //     "keyColor": "blue"
+        // },
+		{
+			"type": "command", 
+			"key": "󰞷 Shell", 
+			"keyColor": "yellow",  
+			"text": "echo $SHELL | awk -F/ '{print $NF}'"
+		},
+		{
+			"type": "terminal",
+			"key": "󰆍 Terminal",
+			"keyColor": "blue",
+			"format": "{2}"
+		},
+        {
+            "type": "wm",
+            "key": "󰨇 WM",
+            "keyColor": "blue"
+        },
+		{ 
+            "type": "command", 
+            "key": "Utkarsh is .ded", 
+			// "keyColor": "yellow"
+            "keyColor": "magenta", 
+            "text": "echo $(($(($(date +%s) - $(stat -c %W /))) / 86400)) days",
+            "format": "{1}" 
+        }
+        // "break",
+        // // media name then playing where?
+        // {
+        //     "type": "media",
+        //     "key": "󰝚 ",
+        //     // "format": "{combined} | {album}",
+        //     "format": "{combined}",
+        //     "keyColor": "34"
+        // },
+        // {
+        //     "type": "player",
+        //     "key": " ",
+        //     "keyColor": "34"
+        // },
+
+        // {
+        //     "type": "colors",
+        //     "symbol": "circle"
+        // }
+    ]
+}
+// crafted by utkarsh
+// built with curiosity, not perfection.
